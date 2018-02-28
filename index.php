@@ -25,7 +25,7 @@
 <br><br>
 <p>Your current coins are: <span id="score"><?php echo $row['coin']; ?></span></p>
 
-<p><button class="btn btn-danger">Stop</button></p>
+<p><a class="btn btn-danger" href="home.php">Stop</a></p>
 </div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

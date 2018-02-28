@@ -45,6 +45,8 @@ function showBtnText(val) {
                 // if the number of wrong answer has reched to 3...
                 window.location = 'home.php';
             } else {
+                // if it is a wrong answer but the number of wrong answer didn't
+                // reached to 3
                 window.location = 'index.php';
             }
         });
